@@ -1,0 +1,78 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fc8019;
+  font-weight: 700;
+}
+p {
+  color: #54433a;
+}
+
+.about-us {
+  /* background: linear-gradient(191deg, rgba(255,197,41,1) 8%, rgba(254,114,64,1) 100%); */
+}
+.mainDiv {
+  background-size: cover !important;
+  background: url("https://ids-technologies.in/wp-content/themes/ids/responsive/Food%20Website/images/bg-6.jpg")
+    no-repeat;
+  background-color: #f5f3f4;
+}
+.feedback-image {
+  width: 100px;
+  border-radius: 0.5rem;
+  align-items: center;
+}
+.feedback-div,
+.feedback-section {
+  text-align: center;
+}
+.banner-text {
+  margin: 100px 0px;
+}
+.banner-heading {
+  font-size: 5vw;
+  font-weight: bolder;
+  text-align: center;
+}
+.image_outer_div img {
+  /* max-height: 500px; */
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+/*media query for mobile device */
+@media only screen and (max-width: 545px) {
+  .image_outer_div img {
+    width: 50%;
+  }
+  .banner-text {
+    margin: 10px 0px;
+  }
+  .banner-heading {
+    font-size: 10vw;
+    font-weight: bolder;
+    text-align: center;
+  }
+}
+
+/*@media  only screen and (min-width:425px) {
+    .banner-heading{
+        font-size: 48px;
+        font-weight: bolder;
+    }
+}
+@media  only screen and (min-width:1024px) {
+    .banner-heading{
+        font-size: 65px;
+        font-weight: bolder;
+    }
+}
+@media  only screen and (min-width:1440px) {
+    .banner-heading{
+        font-size: 85px;
+        font-weight: bolder;
+    }
+} */

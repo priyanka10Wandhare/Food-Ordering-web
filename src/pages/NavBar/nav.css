@@ -1,0 +1,42 @@
+.navbar-responsive {
+  justify-content: space-between;
+}
+@media only screen and (max-width: 765px) {
+  .navbar-responsive {
+    justify-content: center;
+  }
+}
+.navbar-strip {
+  background: #f5f3f4;
+}
+.nav-btn {
+  background: #fc8019;
+  border: none;
+  font-weight: 700;
+}
+.nav-btn:hover {
+  background: #00c239;
+}
+
+.cart-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.cart-icon i {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.item-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0px 5px;
+  font-size: 14px;
+}
