@@ -14,7 +14,7 @@ export default function Home(){
                 <Row >
                     <Col lg={7} md={7} sm={12} xs={12}>
                         <div className='banner-text'>
-                            <h1 className="banner-heading">Good F🥗🥗d</h1>
+                            <h1 className="banner-heading">Good Fu🥗d</h1>
                             <h1 className="banner-heading">Good M😋😋d</h1>
                             <p className="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                         </div>
